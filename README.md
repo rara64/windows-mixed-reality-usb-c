@@ -8,7 +8,7 @@ Due to damaged cables, dozens of Mixed Reality headsets sit in trash piles. I wa
 
 ###### Late 2022 - It's reverse engineering time!
 
-I bought my headset in 2022 for about 12$ excluding shipping as spares or repairs. That said it was in a terrible condition, missing both the front and back foams. Being a Medion ERAZER X1000 headset it didn't significantly differ from other designs and so it suffered the same fate as the other ones - a broken cable.
+I bought my headset in 2022 for about 12$ excluding shipping as spares or repair. That said it was in a terrible condition, missing both the front and back foams. Being a Medion ERAZER X1000 headset it didn't significantly differ from other designs and so it suffered the same fate as the other ones - a broken cable.
 I found that the headset would work if the cable would be bent in a certain way but I couldn't pinpoint the exact place where the cable broke. This allowed me to confirm that indeed the headset was working but had a broken cable.
 
 ![](img/oemcable.jpg)
