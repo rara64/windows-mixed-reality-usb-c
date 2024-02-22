@@ -1,3 +1,5 @@
+<img src='img/logo.png' width=128>
+
 # USB-C mod for Windows Mixed Reality [WIP]
 This project focuses on replacing the proprietary VR cable in Mixed Reality headsets with a single USB-C plug.
 
