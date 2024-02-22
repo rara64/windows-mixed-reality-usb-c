@@ -29,14 +29,18 @@ This is how it came out. This is with inner ground layers disabled to better sho
 
 ![](img/v1pcb_assembly.jpg)
 
-When I received the boards I desoldered the connector from the original cable and soldered it onto one of my PCBs so that I didn't have to buy the MOLEX connectors yet. Then I had to solder each wire from the HDMI and USB 3.0 cable to the breakout board which wasn't an easy task. I opted for very short HDMI/USB 3.0 cables so I could extend them later with an extender cable. And that's where this idea went from good to terrible real quick. These cables do not like interference which means they are very sensitive and a lack of proper shielding can destroy data integrity. I also needed a separate connection for D+ and D- because they kept interfering with USB 3.0 lines - that's where another cable came from. I also had to cut the shielding to make my PCB fit with all of the cables coming out of it.
+When I received the boards I desoldered the connector from the original cable and soldered it onto one of my PCBs so that I didn't have to buy the MOLEX connectors yet.
+Then I had to solder each wire from the HDMI and USB 3.0 cable to the breakout board which wasn't an easy task. I opted for very short HDMI/USB 3.0 cables so I could extend them later with an extender cable.
+
+And that's where this idea went from good to terrible real quick. These cables do not like interference which means they are very sensitive and a lack of proper shielding can destroy data integrity.
+D+ and D- kept interfering with USB 3.0 lines so I put them on a separate USB 2.0 cable. I also had to cut the shielding to make my PCB fit.
 
 ![Fnal version of the breakout board before assembly.](img/v1.jpg)
 
 Upon putting the headset on my head I found another issue with this approach, the weight. OEM cables use one single cable with very thin wires inside that later split to separate connections for the PC. This allows them to significantly reduce the weight and the amount of strain on your head.
 It's also an active cable which helps with the data integrity. This version however lacked this kind of features.
 
-My solution didn't survive very long. Looking at it now, I'm surprised it even worked at all! After a few hours of playtime my headset started struggling and making it work for more than 5 minutes without having it crash completely was a struggle.
+My solution didn't survive very long. Looking at it now, I'm surprised it even worked at all! After a few hours of playtime, my headset started struggling, and making it work for more than 5 minutes without having it crash completely was a struggle.
 So I hit a wall and needed to find a different approach to fix my 12$ headset.
 
 ###### February 2024 - Never give up!
