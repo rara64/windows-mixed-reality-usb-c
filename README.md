@@ -8,7 +8,7 @@ Due to damaged cables, dozens of Mixed Reality headsets sit in trash piles. I wa
 
 # Development log
 
-###### Late 2022 - It's reverse engineering time!
+### Late 2022 - It's reverse engineering time!
 
 I bought my headset in 2022 for about 12$ excluding shipping as spares or repair. That said it was in a terrible condition, missing both the front and back foams. Being a Medion ERAZER X1000 headset it didn't significantly differ from other designs and so it suffered the same fate as the other ones - a broken cable.
 I found that the headset would work if the cable would be bent in a certain way but I couldn't pinpoint the exact place where the cable broke. This allowed me to confirm that indeed the headset was working but had a broken cable.
@@ -45,7 +45,7 @@ It's also an active cable which helps with the data integrity. This version howe
 My solution didn't survive very long. Looking at it now, I'm surprised it even worked at all! After a few hours of playtime, my headset started struggling, and making it work for more than 5 minutes without having it crash completely was a struggle.
 So I hit a wall and needed to find a different approach to fix my 12$ headset.
 
-###### February 2024 - Never give up!
+### February 2024 - Never give up!
 
 I recently became more interested in trying VR again. And so I went back to the drawing board and came up with an idea to make a USB-C mod for these headsets which would solve all of these issues. USB-C is just the way. 
 
@@ -53,3 +53,5 @@ The only downside I can think of at this point is that you will need a PC modern
 You can also buy a PCI-Express expansion card with USB-C DP Alt mode like I plan to do later down the line.
 
 Up next, I need to find an IC that will make it possible to transfer HDMI 2.0 and USB 3.0 over USB-C and design a new PCB around it.
+
+
