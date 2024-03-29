@@ -42,16 +42,33 @@ D+ and D- kept interfering with USB 3.0 lines so I put them on a separate USB 2.
 Upon putting the headset on my head I found another issue with this approach, the weight. OEM cables use one single cable with very thin wires inside that later split to separate connections for the PC. This allows them to significantly reduce the weight and the amount of strain on your head.
 It's also an active cable which helps with the data integrity. This version however lacked this kind of features.
 
-My solution didn't survive very long. Looking at it now, I'm surprised it even worked at all! After a few hours of playtime, my headset started struggling, and making it work for more than 5 minutes without having it crash completely was a struggle.
+My solution didn't survive very long. Looking at it now, I'm surprised it even worked at all! After a few hours of playtime, my headset started struggling and making it work for more than 5 minutes without having it crash completely was a struggle.
 So I hit a wall and needed to find a different approach to fix my 12$ headset.
 
-### February 2024 - Never give up!
+### February 2024 - Project reboot
 
-I recently became more interested in trying VR again. And so I went back to the drawing board and came up with an idea to make a USB-C mod for these headsets which would solve all of these issues. USB-C is just the way. 
+I recently became more interested in trying VR again, so I went back to the drawing board and came up with an idea to make a USB-C mod for these headsets which would solve all of these issues. USB-C is just the way. 
 
 The only downside I can think of at this point is that you will need a PC modern enough that it will feature a USB-C port with DP ALT mode.
 You can also buy a PCI-Express expansion card with USB-C DP Alt mode like I plan to do later down the line.
 
 Up next, I need to find an IC that will make it possible to transfer HDMI 2.0 and USB 3.0 over USB-C and design a new PCB around it.
+
+### March 2024 - Update
+
+After looking at many options for such an IC, I ended up only with a few that are cheap and widely available. However, all of them seem not to be compatible with HDMI and only feature DisplayPort.
+Then I remembered that Aliexpress is filled with cheap 3 in 1 adapters that convert USB-C to HDMI/USB3.0 outputs and also allow PD pass-through, so I bought one!
+
+| Top of the PCB | Bottom of the PCB |
+| --- | --- |
+| ![](img/adapterPCB_top.jpg) | ![](img/adapterPCB_bottom.jpg) |
+
+At first glance, the design seems simple and all of the traces are visible so it will be relatively easy to reverse-engineer.
+The issue is that the IC that the design is based on is not easily available for purchase - it's a GSV1201S made by GSCoolink (?).
+
+![](img/GSV1201S-spec.png)
+
+Another caveat is that while the adapter was advertised as being HDMI 2.0, it's HDMI 1.4 - so it wouldn't be able to handle the headset at 90Hz refresh rate. While I could use it for my project and "sacrifice" Aliexpress adapters to fix Mixed Reality headsets I'm not quite sure about this idea.
+For all I know there could be many other designs for the same-looking adapter! So the hunt for the proper IC for this continues...
 
 
