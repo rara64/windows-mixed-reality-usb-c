@@ -69,6 +69,6 @@ The issue is that the IC that the design is based on is not easily available for
 ![](img/GSV1201S-spec.png)
 
 Another caveat is that while the adapter was advertised as being HDMI 2.0, it's HDMI 1.4 - so it wouldn't be able to handle the headset at 90Hz refresh rate. While I could use it for my project and "sacrifice" Aliexpress adapters to fix Mixed Reality headsets I'm not quite sure about this idea.
-For all I know there could be many other designs for the same-looking adapter! So the hunt for the proper IC for this continues...
+For all I know there could be many other designs for the same-looking adapter! **So the hunt for the proper IC for this continues...**
 
 
