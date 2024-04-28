@@ -84,4 +84,24 @@ Another caveat is that while the adapter was advertised as being HDMI 2.0, it's 
 While I could use it for my project and "sacrifice" Aliexpress adapters to fix Mixed Reality headsets I'm not quite sure about this idea.
 For all I know, there could be other designs for the same-looking adapter! **So the hunt for the proper IC for this continues...**
 
+---
+
+### April 2024
+
+I came to the conclusion that I have two options regarding the IC selection:
+- **Go with reputable well-known brands that provide a lot of information and support for their products**
+
+  I would need a TUSB564 or TUSB1064 as well as a PD controller to negotiate DP Alt Mode (or some other IC) and a chip to convert DP to HDMI 2.0.
+  
+- **Go with unknown brands and find a highly integrated chip thus reducing the complexity of the design**
+
+  Chip with HDMI 2.0 converter built-in and DP Alt Mode negotiation would be ideal.
+
+While the "unknown brands" path is tempting, it's really hard to find chips! I stumbled upon a **CS5266 from ASL Technology**, which seems to be ticking all the boxes.
+The issue is that the integrated DP to HDMI conversion only supports 4K@30Hz which isn't in spec with HDMI 2.0 that we need.
+
+![](img/cs5266-datasheet-title.png)
+
+The issue with the multi-chip solution is that we don't have that much space inside the headset and I worry that it might be hard to properly route and fit the ICs on my PCB.
+I will also look into that over the coming weeks to determine the best IC combination for this.
 
