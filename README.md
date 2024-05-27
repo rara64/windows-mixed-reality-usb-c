@@ -43,7 +43,7 @@ D+ and D- kept interfering with USB 3.0 lines so I put them on a separate USB 2.
 ![Fnal version of the breakout board before assembly.](img/v1.jpg)
 
 Upon putting the headset on my head I found another issue with this approach, the weight. OEM cables use one single cable with very thin wires inside that later split to separate connections for the PC.
-This allows them to significantly reduce the strain on your head.
+This allows them to reduce the strain on your head significantly.
 It's also an active cable which helps with the data integrity. This version however lacked this kind of features.
 
 My solution didn't survive very long. Looking at it now, I'm surprised it even worked at all!
@@ -100,8 +100,33 @@ I came to the conclusion that I have two options regarding the IC selection:
 While the "unknown brands" path is tempting, it's really hard to find chips! I stumbled upon a **CS5266 from ASL Technology**, which seems to be ticking all the boxes.
 The issue is that the integrated DP to HDMI conversion only supports 4K@30Hz which isn't in spec with HDMI 2.0 that we need.
 
+UPDATE:
+HDMI 2.0 claim is indeed a mistake, a newer revision of the datasheet shows the chip only supports HDMI 1.4b.
+
 ![](img/cs5266-datasheet-title.png)
 
 The issue with the multi-chip solution is that we don't have that much space inside the headset and I worry that it might be hard to properly route and fit the ICs on my PCB.
 I will also look into that over the coming weeks to determine the best IC combination for this.
 
+
+### May 2024
+
+I chose to go with CS5266AN since it massively simplifies this project.
+We just don't have enough space for a PD Controller + DP->HDMI Converter + TUSB-like chip.
+
+The elephant in the room is obviously the lack of 90Hz support with this approach.
+I know it might be a deal-breaker for some people as the acceptable/preferred refresh rate will differ from person to person.
+On the other hand, I played my fair bit on 60Hz and it wasn't as bad as I would have thought.
+That said, I would choose 90 over 60 anytime, but if that's the price of a working headset, I'm willing to take it.
+
+I'll attempt to force 90Hz to see if it works once I assemble the first working PCB.
+I just don't think we have enough bandwidth for that with a HDMI 1.4b link.
+
+Five CS5266AN chips are already on the way and should arrive soon.
+As of now, I also have a schematic ready for my PCB in KiCad, and most of the components selected.
+
+Once the chips arrive, I'm going to make a test PCB at home to test the behavior of the chip regarding VBUS control and PD negotiation, because I have some blanks in my design in this regard.
+The only documentation I found is a datasheet with vague information and a reference schematic for a 3-in-1 adapter using this chip.
+I guess that's another downside of going with a chip like this, but I'll definitely work it out.
+
+Up next, track routing and PCB design!
