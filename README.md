@@ -108,6 +108,7 @@ HDMI 2.0 claim is indeed a mistake, a newer revision of the datasheet shows the 
 The issue with the multi-chip solution is that we don't have that much space inside the headset and I worry that it might be hard to properly route and fit the ICs on my PCB.
 I will also look into that over the coming weeks to determine the best IC combination for this.
 
+---
 
 ### May 2024
 
