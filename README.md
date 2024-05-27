@@ -127,7 +127,7 @@ Five CS5266AN chips are already on the way and should arrive soon.
 As of now, I also have a schematic ready for my PCB in KiCad, and most of the components selected.
 
 Once the chips arrive, I'm going to make a test PCB at home to test the behavior of the chip regarding VBUS control and PD negotiation, because I have some blanks in my design in this regard.
-The only documentation I found is a datasheet with vague information and a reference schematic for a 3-in-1 adapter using this chip.
+The only documentation I found is a datasheet with vague information and a reference schematic for a 3-in-1 adapter like the one I bought in March but using this chip.
 I guess that's another downside of going with a chip like this, but I'll definitely work it out.
 
 Up next, track routing and PCB design!
