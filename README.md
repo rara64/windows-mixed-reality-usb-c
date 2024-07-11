@@ -28,8 +28,7 @@ Knowing this I could finally make a breakout board for the headset.
 
 ![](img/v1pcb.jpg)
 
-This was my first PCB design ever so I went through many iterations before I ordered my PCB.
-Design files should be available in this repository if you want to take a look.
+This was my first PCB design ever so I went through many iterations before I ordered my PCB - the final EasyEDA PCB file [is here](pcb/Cable_Breakout_Board_EasyEDA_pcb.json) if you want to take a look.
 
 ![](img/v1pcb_assembly.jpg)
 
