@@ -130,3 +130,13 @@ The only documentation I found is a datasheet with vague information and a refer
 I guess that's another downside of going with a chip like this, but I'll definitely work it out.
 
 Up next, track routing and PCB design!
+
+---
+
+### July 2024
+
+I'm still working on that PCB design and I'm close to getting the design fabricated. Here's a little snippet of what's coming ahead!
+
+![](img/kicad-pcb-early-look.png)
+
+I expect the first testing with a headset to happen around late August, at least I hope so 🤞
