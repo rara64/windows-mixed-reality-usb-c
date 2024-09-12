@@ -140,3 +140,32 @@ I'm still working on that PCB design and I'm close to getting the design fabrica
 ![](img/kicad-pcb-early-look.png)
 
 I expect the first testing with a headset to happen around late August, at least I hope so 🤞
+
+---
+
+### September 2024
+
+![](img/first-design.jpg)
+
+So some time passed since the last update and I have a lot of stuff to discuss, but I'll keep it short.
+
+PCBs arrived, I assembled one of them, and here's what I found:
+- Currently, there's no space to fit a USB-C plug inside the headset so I had to do testing entirely outside the plastic chassis
+- I failed the high-speed design on this one, none of the USB 3.0 lines worked and I had to solder an external cable to make it work for testing
+- When I bypassed everything to make the USB 3.0 connection work I was stuck on display error as there was just too much interference for the CS5266 IC to do its job
+- USB-C plug works only one way and is not reversible and thus triggers port protection when plugged the other way around since we don't have a switch (CS5266 is designed for a plug device, not a device with a USB-C port)
+- Text is too small on the silkscreen and it is completely unreadable
+
+I have already designed a new version, and it is on the way!
+
+![](img/new-design-revb.jpg)
+
+Fixes include:
+- Thinner PCB (1mm vs 1.6mm) and a new layer stackup so I can better control the impedance of the signals
+- Changed USB-C port to gain enough space for some plugs to fit inside (some modifications to the headset might be needed though!)
+- Complete redesign of the CS5266 section to focus on signal integrity and impedance control as well as length matching
+- Better labeling on the silkscreen
+
+Hopefully, these changes will push us closer to the working thing.
+New PCBs should arrive at the end of the next week.
+
