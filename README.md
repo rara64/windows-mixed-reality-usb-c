@@ -8,6 +8,21 @@ Due to damaged cables, dozens of Mixed Reality headsets end up in the trash. I w
 
 # Development log
 
+### November 2024
+
+![](img/rev-c.png)
+
+PCB is now a 6 layer design per recommendations from Reddit where I asked around for help. Sadly, those changes didn't improve the situation.
+However, switching to a 6-layer board allowed me to make the HDMI routing better so that's fewer issues going forward.
+
+Now I have to focus on that USB 3.0 connection that just doesn't want to work.
+Design-wise everything seems to be fine (I think) so I'm very confused.
+
+I'll try to reduce clutter around the RX/TX traces and hide USB 2.0 inside the board which is way harder to break than USB 3.0.
+See you in December!
+
+---
+
 ### September 2024 - Second Update
 
 ![](img/rev-b.jpg)
