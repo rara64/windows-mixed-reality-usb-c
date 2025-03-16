@@ -8,6 +8,22 @@ Due to damaged cables, dozens of Mixed Reality headsets end up in the trash. I w
 
 # Development log
 
+### March 2025
+
+![](img/rev-e.png)
+
+So there was a bit of a delay and currently I'm at revision E ... and I finally got the USB 3.0 working 🎉
+<br>Now I get a display cable error, but that's some progress.
+
+The main issue with the USB 3.0 was that I had to swap RX/TX pairs on my end because of the unusual PORT <--> PORT configuration without a proper switch.
+Can't believe I missed something that simple, anyway that's just how it goes sometimes.
+
+Current objectives are:
+- Why HDMI doesn't work?
+- Figure out how/where to put screw holes onto the PCB so that it can be properly mounted
+
+---
+
 ### November 2024
 
 ![](img/rev-c.png)
