@@ -8,6 +8,25 @@ Due to damaged cables, dozens of Mixed Reality headsets end up in the trash. I w
 
 # Development log
 
+### May 2025 - Mini Update
+
+![](img/may2025-miniupdate.png)
+
+I did a lot of troubleshooting over the last few months, and I finally found the correct pinout for my USB-C port 🎉
+<br>After fixing my current PCB with jumper wires, I got the headset fully working.
+
+The main issue is that when I install the mainboard into the headset, the headset stops working!
+I narrowed it down to the force applied by the USB-C cable once everything is mounted inside the case.
+There are just not enough mounting points for such a large PCB, and the flex due to the USB-C cable being plugged in messes with the connection between the boards.
+
+My solution to this problem is to extend the connection outside the headset using an I-PEX eDP cable, like the one in your laptop, connecting the screen to the mainboard.
+New PCBs for that purpose will arrive in a few days, and I'll share more once I test them.
+
+I created a separate repo for that part of the project.
+I'm also planning to make a version of this that routes HDMI and USB 3.0 ports outside the headset, thus making this cable replacement more accessible.
+
+![🟦 See DIY cable replacement for Windows Mixed Reality headsets [WIP]](https://github.com/rara64/windows-mixed-reality-cable)
+
 ### March 2025
 
 ![](img/rev-e.png)
