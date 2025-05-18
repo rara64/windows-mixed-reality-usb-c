@@ -27,6 +27,8 @@ I'm also planning to make a version of this that routes HDMI and USB 3.0 ports o
 
 ![🟦 See DIY cable replacement for Windows Mixed Reality headsets [WIP]](https://github.com/rara64/windows-mixed-reality-cable)
 
+---
+
 ### March 2025
 
 ![](img/rev-e.png)
