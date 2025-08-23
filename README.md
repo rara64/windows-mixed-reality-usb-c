@@ -8,12 +8,35 @@ Due to damaged cables, dozens of Mixed Reality headsets end up in the trash. I w
 
 # Development log
 
+### August 2025
+
+Extending the connection between the headset's mainboard and my PCB made no difference.
+While the headset worked in Windows when assembled, I couldn't get any picture on the headset display. So I decided to buy another broken headset, but it only confirmed the issue.
+
+![](img/cable-replacement.jpg)
+
+At this point, I went back to the drawing board and focused on making a simple version that allows me to connect HDMI and USB 3.0 directly (see image above).
+There was a difference, because I started getting something which resembled a testing pattern on the headset display.
+**What's even more interesting is that I could see a Windows logo in the headset for a split second before the pattern appeared.**
+
+<img src="img/pattern.gif" height="320px">
+
+These new PCBs seem to be fully functional since I tested them as a simple "HDMI extender", which means I most likely broke both of my testing headsets.
+Fault is likely on the mainboard, specifically, I suspect either ANX7678 or ANX7530 IC.
+I already replaced ANX7678, and it didn't change anything. When I find some time, I'll swap ANX7530 on the same mainboard.
+
+Did I get something that works? I don't know yet. Stay tuned.
+
+Design files for this new PCBs will be ![available in my other repo!](https://github.com/rara64/windows-mixed-reality-cable)
+
+---
+
 ### May 2025 - Mini Update
 
 ![](img/may2025-miniupdate.png)
 
 I did a lot of troubleshooting over the last few months, and I finally found the correct pinout for my USB-C port 🎉
-<br>After fixing my current PCB with jumper wires, I got the headset fully working.
+<br>After fixing my current PCB with jumper wires, I got the headset fully working (at least in Windows)!
 
 The main issue is that when I install the mainboard into the headset, the headset stops working!
 I narrowed it down to the force applied by the USB-C cable once everything is mounted inside the case.
