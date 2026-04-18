@@ -8,6 +8,25 @@ Due to damaged cables, dozens of Mixed Reality headsets end up in the trash. I w
 
 # Development log
 
+### April 2026
+
+![](img/working-headset.gif)
+
+My design from August with HDMI and USB ports works! 🎉
+
+It really looked like the issue was the broken headset, but it behaved like this because of my Windows settings. Really annoying...<br>
+Inside Mixed Reality settings, there is an option called **"Fade to gray when positional tracking is lost"** and I just had to turn it off.
+
+**Sadly, this doesn't fix the USB C version because I don't have ANY video signal using that PCB.**<br>
+This really can't be a single PCB because the USB C port with a hefty cable puts too much strain on the whole mainboard and barely fits inside the headset.
+There are multiple versions of these headsets where fitting a plug inside won't be possible.
+So, I have to make a version that puts the electronics outside the headset to mount somewhere - using the design from August last year.
+
+I've sourced the CS5366 chip already, which supports the full capabilities of the headset - not sure I'll use it.
+The problem is that **I don't have as much time as last year**. It might take me longer than expected to come up with something new.
+
+---
+
 ### August 2025
 
 Extending the connection between the headset's mainboard and my PCB made no difference.
