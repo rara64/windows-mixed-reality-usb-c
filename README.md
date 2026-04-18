@@ -27,6 +27,8 @@ So, I have to make a version that puts the electronics outside the headset to mo
 I've sourced the CS5366 chip already, which supports the full capabilities of the headset - not sure I'll use it.
 The problem is that **I don't have as much time as last year**. It might take me longer than expected to come up with something new.
 
+Sorry for the delay.
+
 ---
 
 ### August 2025
