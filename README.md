@@ -14,7 +14,7 @@ Due to damaged cables, dozens of Mixed Reality headsets end up in the trash. I w
 
 My design from August with HDMI and USB ports works! 🎉
 
-It really looked like the issue was the broken headset, but it behaved like this because of my Windows settings. Really annoying...<br>
+It really looked like the issue was the broken headset, but it behaved like this because of my Windows settings. Really annoying...
 Inside Mixed Reality settings, there is an option called **"Fade to gray when positional tracking is lost"** and I just had to turn it off.
 
 **Sadly, this doesn't fix the USB C version because I don't have ANY video signal using that PCB.**<br>
